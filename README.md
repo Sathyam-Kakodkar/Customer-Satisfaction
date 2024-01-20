@@ -1,12 +1,12 @@
 
 # Predicting Customer Satisfaction of Invistico Airline
 
-In this project we will building random forest model for an Airline. Here, we will train, tune, and evaluate a random forest model using data from spreadsheet of survey responses from 129,880 customers. It includes data points such as class, flight distance, and inflight entertainment. Random forest model will be used to predict whether a customer will be satisfied with their flight experience.
+In this project, we will build a random forest model for an Airline. Here, we will train, tune, and evaluate a random forest model using data from a spreadsheet of survey responses from 129,880 customers. It includes data points such as class, flight distance, and inflight entertainment. A random forest model will predict whether a customer will be satisfied with their flight experience.
 
 
 ## Business Understanding
 
- The main aim of the project is to find important features affecting the customer satisfaction. Once our model predicts this features then the stakefolders can take decision on where to focus to improve customer satisfaction.
+ The main aim of the project is to find important features affecting customer satisfaction. Once our model predicts these features then the stakeholders can decide on where to focus to improve customer satisfaction.
 
 ## Data Understanding 
 
@@ -17,14 +17,14 @@ The data consists of 129880 rows and  22 columns. The target variable is named "
 
 ## Modeling and Evaluation
 
-Since this is classification model we have used RandomForestClassifier to construct a model.
+Since this is a classification model we have used RandomForestClassifier to construct a model.
 
 <pre>
 Instantiate model
 rf = RandomForestClassifier(random_state=0)   
 </pre>
 
-For evaluating the model precision_score , recall_score and accuracy_score are used as evaluation metrics.
+Precision_score, recall_score and accuracy_score are used as evaluation metrics for evaluating the model.
 
 ## Conclusion
 
